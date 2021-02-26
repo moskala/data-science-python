@@ -8,7 +8,9 @@ This repo contains three small projects for data analysis in python:
 
 Reports are provided as both Jupyter Notebook and HTML files.
 
-Sample activity chart on world map for users of chess service: 
+Sample results from *Stack Exchange games activity* project:
+
+Activity chart on world map for users of chess service: 
 ![World chart](https://github.com/moskala/data-science-python/blob/main/stackexchange_games_activity/results/map_chess.PNG)
 
 Number of users in each service by country:
