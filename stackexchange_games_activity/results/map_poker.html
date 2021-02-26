@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="508a1050f3794526b936c476de7df65a" class="chart-container" style="width:1000px; height:460px;"></div>
+    <script>
+        var chart_508a1050f3794526b936c476de7df65a = echarts.init(
+            document.getElementById('508a1050f3794526b936c476de7df65a'), 'white', {renderer: 'canvas'});
+        var option_508a1050f3794526b936c476de7df65a = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "Number of users",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "United States",
+                    "value": 848
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 204
+                },
+                {
+                    "name": "India",
+                    "value": 196
+                },
+                {
+                    "name": "Germany",
+                    "value": 106
+                },
+                {
+                    "name": "Canada",
+                    "value": 101
+                },
+                {
+                    "name": "Vietnam",
+                    "value": 64
+                },
+                {
+                    "name": "Indonesia",
+                    "value": 58
+                },
+                {
+                    "name": "Australia",
+                    "value": 55
+                },
+                {
+                    "name": "Brazil",
+                    "value": 51
+                },
+                {
+                    "name": "France",
+                    "value": 49
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 44
+                },
+                {
+                    "name": "Russia",
+                    "value": 38
+                },
+                {
+                    "name": "Poland",
+                    "value": 30
+                },
+                {
+                    "name": "Italy",
+                    "value": 25
+                },
+                {
+                    "name": "Israel",
+                    "value": 24
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 23
+                },
+                {
+                    "name": "Romania",
+                    "value": 23
+                },
+                {
+                    "name": "Denmark",
+                    "value": 21
+                },
+                {
+                    "name": "Sweden",
+                    "value": 21
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": false,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Number of users"
+            ],
+            "selected": {
+                "Number of users": true
+            },
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Users of poker",
+            "subtext": "Top 20 countries",
+            "left": "center",
+            "padding": 0,
+            "itemGap": 2,
+            "textStyle": {
+                "color": "darkblue",
+                "fontWeight": "bold",
+                "fontFamily": "Courier New",
+                "fontSize": 30
+            },
+            "subtextStyle": {
+                "color": "grey",
+                "fontWeight": "bold",
+                "fontFamily": "Courier New",
+                "fontSize": 13
+            }
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 1100000,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": 0,
+                "max": 100
+            },
+            {
+                "min": 100,
+                "max": 200
+            },
+            {
+                "min": 200,
+                "max": 300
+            },
+            {
+                "min": 300,
+                "max": 400
+            },
+            {
+                "min": 400,
+                "max": 500
+            },
+            {
+                "min": 500,
+                "max": 600
+            },
+            {
+                "min": 600,
+                "max": 700
+            },
+            {
+                "min": 700,
+                "max": 800
+            },
+            {
+                "min": 800,
+                "max": 900
+            },
+            {
+                "min": 900,
+                "max": 1000
+            },
+            {
+                "min": 1000,
+                "max": 1500
+            },
+            {
+                "min": 1500,
+                "max": 2000
+            },
+            {
+                "min": 2000,
+                "max": 2500
+            },
+            {
+                "min": 3000
+            }
+        ]
+    }
+};
+        chart_508a1050f3794526b936c476de7df65a.setOption(option_508a1050f3794526b936c476de7df65a);
+    </script>
+</body>
+</html>

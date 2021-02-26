@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/world.js"></script>
+
+</head>
+<body>
+    <div id="0380d9c48bb7437e8b4d1dfdaf6a338b" class="chart-container" style="width:1000px; height:460px;"></div>
+    <script>
+        var chart_0380d9c48bb7437e8b4d1dfdaf6a338b = echarts.init(
+            document.getElementById('0380d9c48bb7437e8b4d1dfdaf6a338b'), 'white', {renderer: 'canvas'});
+        var option_0380d9c48bb7437e8b4d1dfdaf6a338b = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "Number of users",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "world",
+            "data": [
+                {
+                    "name": "United States",
+                    "value": 2378
+                },
+                {
+                    "name": "India",
+                    "value": 1280
+                },
+                {
+                    "name": "United Kingdom",
+                    "value": 510
+                },
+                {
+                    "name": "Germany",
+                    "value": 389
+                },
+                {
+                    "name": "Canada",
+                    "value": 319
+                },
+                {
+                    "name": "France",
+                    "value": 190
+                },
+                {
+                    "name": "Australia",
+                    "value": 183
+                },
+                {
+                    "name": "Netherlands",
+                    "value": 133
+                },
+                {
+                    "name": "Brazil",
+                    "value": 108
+                },
+                {
+                    "name": "Italy",
+                    "value": 82
+                },
+                {
+                    "name": "Poland",
+                    "value": 81
+                },
+                {
+                    "name": "Sweden",
+                    "value": 79
+                },
+                {
+                    "name": "Spain",
+                    "value": 79
+                },
+                {
+                    "name": "Russia",
+                    "value": 79
+                },
+                {
+                    "name": "Turkey",
+                    "value": 66
+                },
+                {
+                    "name": "Pakistan",
+                    "value": 65
+                },
+                {
+                    "name": "Bangladesh",
+                    "value": 63
+                },
+                {
+                    "name": "Belgium",
+                    "value": 60
+                },
+                {
+                    "name": "Switzerland",
+                    "value": 56
+                },
+                {
+                    "name": "Iran",
+                    "value": 55
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": false,
+            "emphasis": {},
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "Number of users"
+            ],
+            "selected": {
+                "Number of users": true
+            },
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Users of chess",
+            "subtext": "Top 20 countries",
+            "left": "center",
+            "padding": 0,
+            "itemGap": 2,
+            "textStyle": {
+                "color": "darkblue",
+                "fontWeight": "bold",
+                "fontFamily": "Courier New",
+                "fontSize": 30
+            },
+            "subtextStyle": {
+                "color": "grey",
+                "fontWeight": "bold",
+                "fontFamily": "Courier New",
+                "fontSize": 13
+            }
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 1100000,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "min": 0,
+                "max": 100
+            },
+            {
+                "min": 100,
+                "max": 200
+            },
+            {
+                "min": 200,
+                "max": 300
+            },
+            {
+                "min": 300,
+                "max": 400
+            },
+            {
+                "min": 400,
+                "max": 500
+            },
+            {
+                "min": 500,
+                "max": 600
+            },
+            {
+                "min": 600,
+                "max": 700
+            },
+            {
+                "min": 700,
+                "max": 800
+            },
+            {
+                "min": 800,
+                "max": 900
+            },
+            {
+                "min": 900,
+                "max": 1000
+            },
+            {
+                "min": 1000,
+                "max": 1500
+            },
+            {
+                "min": 1500,
+                "max": 2000
+            },
+            {
+                "min": 2000,
+                "max": 2500
+            },
+            {
+                "min": 3000
+            }
+        ]
+    }
+};
+        chart_0380d9c48bb7437e8b4d1dfdaf6a338b.setOption(option_0380d9c48bb7437e8b4d1dfdaf6a338b);
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+,CountryName,TotalUsers,Codes,Country,Continet
+0,United States,848,"('US', 'NA')",US,NA
+1,United Kingdom,204,"('GB', 'EU')",GB,EU
+2,India,196,"('IN', 'AS')",IN,AS
+3,Germany,106,"('DE', 'EU')",DE,EU
+4,Canada,101,"('CA', 'NA')",CA,NA
+5,Việt Nam,89,"('Unknown', 'Unknown')",Unknown,Unknown
+6,Vietnam,64,"('VN', 'AS')",VN,AS
+7,Indonesia,58,"('ID', 'AS')",ID,AS
+8,Australia,55,"('AU', 'OC')",AU,OC
+9,Brazil,51,"('BR', 'SA')",BR,SA
+10,France,49,"('FR', 'EU')",FR,EU
+11,Netherlands,44,"('NL', 'EU')",NL,EU
+12,Russia,38,"('RU', 'EU')",RU,EU
+13,Poland,30,"('PL', 'EU')",PL,EU
+14,Italy,25,"('IT', 'EU')",IT,EU
+15,Israel,24,"('IL', 'AS')",IL,AS
+16,Switzerland,23,"('CH', 'EU')",CH,EU
+17,Romania,23,"('RO', 'EU')",RO,EU
+18,Denmark,21,"('DK', 'EU')",DK,EU
+19,Sweden,21,"('SE', 'EU')",SE,EU
